@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Happy Shopping</title>
+	
+	<link rel="stylesheet" type="text/css" href="IEShop.css">
+
+</head>
+
+<body>
+<br>
+	
+	
+	
+<div class="browser">
+	<!-- main-categories-->
+		<img src="main catagories.png" width="749" height="227" usemap="#Map" alt="">
+		<map name="Map">
+          <area shape="rect" coords="7,109,143,226" onMouseOver="ShowFreshFood()" onMouseOut="HideFreshFood()">
+          <area shape="rect" coords="156,108,292,226" onMouseOver="ShowForzenFood()" onMouseOut="HideForzenFood()">
+          <area shape="rect" coords="304,109,440,228" onMouseOver="ShowHomeHealth()" onMouseOut="HideHomeHealth()">
+          <area shape="rect" coords="452,109,590,226" onMouseOver="ShowBeverages()" onMouseOut="HideBeverages()">
+          <area shape="rect" coords="601,110,739,226" onMouseOver="ShowPetFood()" onMouseOut="HidePetFood()">
+  </map>
+	
+	
+	<!-- sub-categories-->
+     <img src="fresh food.png" width="749" height="227" id="freshFood" alt="" onMouseOver="ShowFreshFood()" onMouseOut="HideFreshFood()">
+	 <img src="forzen food.png" width="749" height="227" id="forzenFood" alt="" onMouseOver="ShowForzenFood()" onMouseOut="HideForzenFood()">
+	 <img src="home health.png" width="749" height="227" id="homeHealth" alt="" onMouseOver="ShowHomeHealth()" onMouseOut="HideHomeHealth()">
+	 <img src="beverages.png" width="749" height="227" id="beverages" alt="" onMouseOver="ShowBeverages()" onMouseOut="HideBeverages()">
+	 <img src="pet food.png" width="749" height="227" id="petFood" alt="" onMouseOver="ShowPetFood()" onMouseOut="HidePetFood()">
+
+	
+	
+	
+</div>
+	
+	
+	
+	
+<script>
+	
+	var freshFood = document.getElementById("freshFood");
+	var forzenFood = document.getElementById("forzenFood");
+	var homeHealth = document.getElementById("homeHealth");
+	var beverages = document.getElementById("beverages");
+	var petFood = document.getElementById("petFood");
+	
+	//fresh food
+	function ShowFreshFood()
+	{
+	
+		freshFood.style.visibility="visible";
+		
+	}
+	
+	function HideFreshFood()
+	{
+		
+		freshFood.style.visibility="hidden";
+		
+	}
+
+	
+	//forzen food
+	function ShowForzenFood()
+	{
+	
+		forzenFood.style.visibility="visible";
+		
+	}
+	
+	function HideForzenFood()
+	{
+		
+		forzenFood.style.visibility="hidden";
+		
+	}
+	
+	//home health
+	function ShowHomeHealth()
+	{
+	
+		homeHealth.style.visibility="visible";
+		
+	}
+	
+	function HideHomeHealth()
+	{
+		
+		homeHealth.style.visibility="hidden";
+		
+	}
+	
+	
+	//beverages
+	
+	function ShowBeverages()
+	{
+		beverages.style.visibility="visible";
+		
+	}
+	
+	function HideBeverages()
+	{
+		beverages.style.visibility="hidden";
+		
+	}
+		
+	
+	//pet food
+	function ShowPetFood()
+	{
+		petFood.style.visibility="visible";
+		
+	}
+	
+	
+	function HidePetFood()
+	{
+		petFood.style.visibility="hidden";
+		
+	}
+
+	
+</script>
+
+	
+	
+	
+</body>
+</html>
