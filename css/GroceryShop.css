@@ -1,0 +1,161 @@
+
+.MainPage
+{
+	background-color: #F8F6F8;
+	font-family: Arial;
+	color:#132f54;
+
+}
+
+
+.contactForm
+{
+	background-color: #F8F6F8;
+	font-family: Arial;
+
+}
+
+
+.browser
+{
+	padding: 30px;
+	float:left;
+	width: 50%;
+	height: 800px;
+	background-color:  #F8F6F8;
+	margin: 0px;
+	font-family: Arial;
+
+
+
+}
+.rightHalf{
+	width: 50%;
+	float:right;
+	height: 800px;
+}
+
+.topRightFrame
+{
+	position: relative;
+	background-color: #F8F6F8;
+	height: 50%;
+	margin: 0px;
+	border: 5px;
+	border-bottom-style: ridge;
+	overflow-y: auto;
+	font-family: Arial;
+
+
+
+}
+
+.bottomRightFrame
+{
+	background-color: #F8F6F8;
+	position: relative;
+	height: 50%;
+	margin: 0px;
+	overflow-y: auto;
+	font-family: Arial;
+}
+
+.header{
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.logo{
+	float: left;
+    width: 20%;
+}
+.logo img{
+	width: 100px;
+    margin-top: 20px;
+    float: left;
+}
+.headerTitle{
+	float: right;
+    width: 80%;
+    font-size: 35px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    color: #132f54 !important;
+    margin-right: 170px;
+}
+
+
+input[type="button"],input[type="submit"]{
+	background-color: #2a5179 !important;
+	border-color: #2a5179 !important;
+	color: #ffff;
+}
+
+input[type="button"]:hover,input[type="submit"]:hover{
+	background-color: #336292 !important;
+}
+
+
+
+table {
+	border-collapse: collapse;
+	width: 90%;
+	font-family: Arial;
+	color: #132f54;
+	font-weight: bold;
+}
+
+th, td {
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+	font-family: Arial;
+}
+
+tr:hover {background-color:#f5f5f5;}
+
+h1 {
+	color: #132f54 !important;
+	font-weight: bold !important;
+}
+h2 {
+	color: #132f54 !important;
+	font-weight: bold !important;
+}
+
+#studentIDBar
+{
+    background-color: #2a5179;;
+
+}
+
+#studentIDText
+{
+    font-family: Arial;
+    color: white;
+
+}
+
+
+#frozenFood
+{
+	display: none;
+}
+
+#freshFood{
+	display: none;
+}
+
+#homeHealth{
+	display: none;
+}
+
+#beverages{
+	display: none;
+}
+
+#petFood{
+	display: none;
+}
